@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'card1.dart';
 
 class Home extends StatefulWidget {
   const Home({
@@ -15,7 +16,7 @@ class _HomeState extends State<Home> {
 // 8
   static List<Widget> pages = <Widget>[
     // TODO: Replace with Card1
-    Container(color: Colors.red),
+    Card1(),
 // TODO: Replace with Card2
     Container(color: Colors.green),
 // TODO: Replace with Card3
